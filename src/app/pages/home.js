@@ -32,7 +32,7 @@ class Home extends Component {
       <PageContainer layout='navbar' >
         <Row type="flex" justify="center" >
           <Col span={24} >
-            <img style={{width: '100%'}} src='https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/29872931_2194638597433580_6102303394118235349_o.png?_nc_cat=0&oh=9d7905323fe5161c1b20c346c0c2c326&oe=5B2D5745'/>
+            <img style={{width: '100%'}} src='https://laviebirth.herokuapp.com/public/lavieCover.png'/>
           </Col>
         </Row>
         

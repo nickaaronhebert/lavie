@@ -3,6 +3,7 @@
   "routes":{
     "/public/madison.jpg": "../public/madison.jpg",
     "/public/lavie.png": "../public/lavie.png",
+    "/public/lavieCover.png": "../public/lavieCover.png",
      "/**": "index.html"
   }
 }

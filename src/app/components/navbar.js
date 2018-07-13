@@ -18,7 +18,7 @@ export default class Navbar extends Component {
           <Header style={{'backgroundColor':'#FFFFFF', position: 'fixed', width: '100%', borderBottom: '1px solid #ebf2f5', zIndex: "10" }} >
             <Row type="flex" justify="space-between" align="bottom" style={{height: '100%'}}>
               <Col span={20}>
-                <a href='/'><img src='https://laviebirth.com/lavie.png' style={{height:"50px"}}/></a>
+                <a href='/'><img src='https://laviebirth.herokuapp.com/public/lavie.png' style={{height:"50px"}}/></a>
               </Col>
               <Col span={4}>
                 {
