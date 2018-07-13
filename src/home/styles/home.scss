@@ -1,0 +1,96 @@
+@import '~antd/dist/antd.css';
+
+#components-layout-demo-fixed .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+a {
+  color: #0E1129;
+}
+
+a:hover {
+  /*background-color: yellow;*/
+}
+
+.title-text-small{
+  font-size: 15px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: .081em;
+  color: #f22f46;
+  margin-bottom: 20px;
+}
+
+.item-list{
+  display: inline-block;
+  list-style-type: none;
+}
+
+.item-list-link{
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px 12px;
+  color: #555a72
+}
+
+.promo-video{
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 5px 30px rgba(148,151,155,.6);
+
+  display: flex;
+  align-items: center;
+}
+
+.ant-divider-horizontal{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.title-text-large{
+  line-height: 1.4;
+  font-size: 32px !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  padding: 11px 18px 10px;
+  font-size: 13px;
+
+  text-decoration: none;
+  background-color: #f22f46;
+  color: #FFFFFF;
+
+  margin-right: 10px;
+  border-top: 0px solid #CCCCCC;
+  border-right: 0px solid #333333;
+  border-bottom: 0px solid #333333;
+  border-left: 0px solid #CCCCCC;
+
+  font-weight: 400;
+  line-height: 1;
+  border-radius: 3px;
+  margin-left: 8px;
+  display: inline-block;
+ }
+
+.debugging {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.ant-layout {
+  background-color: white !important
+}
