@@ -1,6 +1,7 @@
 {
   "root":"dist/",
   "routes":{
-    "/**": "index.html"
+    "/public/madison.jpg": "../public/madison.jpg",
+     "/**": "index.html"
   }
 }
