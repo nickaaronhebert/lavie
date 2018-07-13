@@ -70,7 +70,7 @@ class Home extends Component {
             <Divider style={{paddingBottom: '100px', paddingTop: '100px'}}>About Me</Divider>
             <Row>
               <Col span={11} style={{textAlign: 'center'}}>
-                <img style={{width: '200px', height: '200px', borderRadius: '200px'}} src='https://laviebirth.com/madison.jpg'/><br/>
+                <img style={{width: '200px', height: '200px', borderRadius: '200px'}} src='https://laviebirth.herokuapp.com/public/madison.jpg'/><br/>
                 <span>Madison Hebert</span><br/>
                 <p style={{fontStyle: 'italic'}}>Mother of a beautiful, little girl. Married to a sexy husband. Baker of all things sweet.</p>
                 <span></span>
@@ -312,7 +312,7 @@ class Home extends Component {
                 </Form>
               </Col>
               <Col span={11} offset={2} style={{textAlign: 'center'}}>
-                <img style={{width: '200px', height: '200px', borderRadius: '200px'}} src='https://laviebirth.com/madison.jpg'/><br/>
+                <img style={{width: '150px', height: '200px'}} src='https://laviebirth.herokuapp.com/public/madison.jpg'/><br/>
                 <span>Madison Hebert</span><br/>
               </Col>
 

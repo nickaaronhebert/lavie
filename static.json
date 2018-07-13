@@ -2,6 +2,7 @@
   "root":"dist/",
   "routes":{
     "/public/madison.jpg": "../public/madison.jpg",
+    "/public/lavie.png": "../public/lavie.png",
      "/**": "index.html"
   }
 }
