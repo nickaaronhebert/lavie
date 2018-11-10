@@ -23,8 +23,8 @@ node {
         stage('build') {
                 sh 'rm -f .env'
                 sh 'cp .env.dev .env'
-                sh 'npm install'
-                sh 'npm run build'
+                sh 'yarn --ignore-engines'
+                sh 'yarn build --ignore-engines'
         }
         stage('pack') {
             withEnv([
