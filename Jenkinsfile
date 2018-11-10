@@ -23,8 +23,8 @@ node {
         stage('build') {
                 sh 'rm -f .env'
                 sh 'cp .env.dev .env'
-                sh 'yarn --ignore-engines'
-                sh 'yarn build --ignore-engines'
+                sh 'yarn'
+                sh 'yarn build'
         }
         stage('pack') {
             withEnv([
@@ -39,14 +39,6 @@ node {
         }
         archiveArtifacts artifacts: 'build/*.tgz'
     }
-    stage('auto-deploy') {
-        if (env.BRANCH_NAME == 'development' && currentBuild.currentResult == 'SUCCESS') {
-            build job: 'lavie-deploy', parameters: [[
-                $class: 'StringParameterValue', name: 'BRANCH_NAME', value: 'development'
-            ],[
-                $class: 'StringParameterValue', name: 'BUILD_NUMBER', value: currentBuild.id
-            ]]
-        }
-    } 
+    
 }
 
