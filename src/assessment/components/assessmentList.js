@@ -3,7 +3,7 @@ import {Row, Col, Card, Button, Icon, Divider, Table, Input} from 'antd';
 const { TextArea } = Input;
 
 const columns = [{
-  title: 'Name',
+  title: 'Name!!!',
   dataIndex: 'name',
   key: 'name',
   render: text => <a href="#">{text}</a>,
