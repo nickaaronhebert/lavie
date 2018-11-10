@@ -1,5 +1,5 @@
 def repoName = 'git@github.com:nickaaronhebert/lavie.git'
-def repoCreds = 'lavie-github'
+def repoCreds = 'lavie-github-jenkins'
 def projectName = 'lavie'
 
 node {
