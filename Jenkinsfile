@@ -23,8 +23,7 @@ node {
         stage('build') {
                 sh 'rm -f .env'
                 sh 'cp .env.dev .env'
-                sh 'npm'
-                sh 'npm build'
+                sh 'npm run build'
         }
         stage('pack') {
             withEnv([
