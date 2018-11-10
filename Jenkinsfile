@@ -23,8 +23,8 @@ node {
         stage('build') {
                 sh 'rm -f .env'
                 sh 'cp .env.dev .env'
-                sh 'yarn'
-                sh 'yarn build'
+                sh 'npm'
+                sh 'npm build'
         }
         stage('pack') {
             withEnv([
