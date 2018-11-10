@@ -11,7 +11,7 @@ node {
                 branches: [[name: env.BRANCH_NAME]],
                 doGenerateSubmoduleConfigurations: false,
                 userRemoteConfigs: [[
-                    credentialsId: repoCreds,
+                    credentialsId: 08e1579f-102b-437e-b104-dd308afb8e16,
                     url: repoName,
                     poll: true
                 ]]
@@ -49,4 +49,3 @@ node {
         }
     } 
 }
-
